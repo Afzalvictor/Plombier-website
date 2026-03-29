@@ -1,0 +1,61 @@
+/* ───── RESPONSIVE ───── */
+@media (max-width: 900px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-card {
+        display: none;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .step-arrow {
+        transform: rotate(90deg);
+    }
+
+    .local-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-logo {
+        font-size: 0.92rem;
+    }
+
+    .nav-phone {
+        display: none;
+    }
+
+    .rating-banner {
+        gap: 16px;
+    }
+
+    .rating-divider {
+        display: none;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+    }
+
+    .trust-badges {
+        gap: 14px;
+    }
+}
